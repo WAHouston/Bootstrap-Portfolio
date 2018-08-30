@@ -2,17 +2,19 @@
     color: #ffffff;
     background: #4aaaa5;
     width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 header {
     border-bottom: 2px solid #cccccc;
     background: #ffffff;
-    height: 90px;
 }
 .nav-link {
     font-size: 19px;
     text-decoration: none;
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    padding: 15px 15px 15px 15px;
 }
 body {
     background: url("../images/hexellence.png") repeat;
@@ -20,6 +22,7 @@ body {
 h1 {
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    margin-bottom: 0px;
 }
 #headline {
     margin-left: 20px;
@@ -28,6 +31,8 @@ p {
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
     margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 20px;
 }
 footer {
     color: #ffffff;
@@ -51,4 +56,10 @@ section {
 }
 hr {
     margin: 15px;
+    border: 0;
+    border-top: 2px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+}
+img {
+    margin-top: 10px;
 }
