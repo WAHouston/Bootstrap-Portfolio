@@ -63,3 +63,28 @@ hr {
 img {
     margin-top: 10px;
 }
+.project {
+    float: left;
+    display: block;
+    text-decoration: none;
+    width: 275px;
+    height: 205px;
+    position: relative;
+    margin: 40px 40px 15px 0px;
+}
+.project img {
+    width: 100%;
+    height: 100%;
+}
+.project h3 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: normal;
+    color: #ffffff;
+    background: #4aaaa5;
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    padding-top: 19px;
+    padding-bottom: 19px;
+}
